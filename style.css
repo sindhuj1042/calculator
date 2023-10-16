@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+  
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #e3f9ff;
+    height:100vh;
+    align-items: center;
+}
+.calculator{
+    
+    background-color:#3a4452;
+    padding: 20px;
+    border-radius: 10px;
+    height: 500px;
+    width: 300px;
+    
+}
+.calculator input{
+   
+   outline: 0;
+   width:60px;
+   height: 60px;
+   border-radius: 10px;
+   box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px,5px,15px rgba(0,0,0,0.2),;
+   background: transparent; 
+   color: #fff;
+   cursor: pointer;
+   margin: 10px;
+}
+.button button{
+    width: 50px;
+    width: 50px;
+    border-radius: 10px;
+   box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px,5px,15px rgba(0,0,0,0.2),;
+   background: transparent; 
+   color: #fff;
+}
+#equal{
+    width: 100px;
+}
+#input{
+    width: 90%;
+}
+.button1{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.button2{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.button3{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.button4{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.button5{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
